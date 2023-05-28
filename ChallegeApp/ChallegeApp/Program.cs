@@ -1,2 +1,2 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World-nowe 18:21!");
+Console.WriteLine("Hello, World-nowe 16:01!");
