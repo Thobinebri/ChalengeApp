@@ -6,12 +6,12 @@ string WomenName = "Ewa";
 string aMan = "Mężczyzna";
 string aWoman = "Kobieta";
 int underAge = 18;
-int braeakAge = 30;
+int braeakAge = 33;
 
 //Zadane wartości do wyszukania i opisania:
 //Pełnoletniość i płeć. Jeśli 33 lata to również imie
 bool isMan = false;
-int age = 33;
+int age = 35;
 
 //Zmienna robocza-wynik
 string tempAnswer = null;
