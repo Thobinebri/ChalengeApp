@@ -11,7 +11,7 @@ int braeakAge = 33;
 //Zadane wartości do wyszukania i opisania:
 //Pełnoletniość i płeć. Jeśli 33 lata to również imie
 bool isMan = false;
-int age = 35;
+int age = 38;
 
 //Zmienna robocza-wynik
 string tempAnswer = null;
@@ -22,29 +22,15 @@ if (age < underAge)
     else
         tempAnswer = "Niepełnoletnia " + aWoman;
 if (age >= underAge && age < braeakAge)
-{
     if (isMan)
         tempAnswer = aMan + ", lat " + age;
     else
         tempAnswer = aWoman + ", lat " + age;
-}
 
 if (age >= braeakAge)
-{
-    if (isMan)
+ if (isMan)
         tempAnswer = ManName + ", lat " + age;
     else
         tempAnswer = WomenName + ", lat " + age;
-}
-
-
-/*
-else if (!isMan)
-tempAnswer = aWoman;
-else
-tempAnswer = aMan;
- */
-
-
 
 Console.WriteLine(tempAnswer);
