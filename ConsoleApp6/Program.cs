@@ -35,9 +35,9 @@ int scoreMax = 0;
 
 foreach (var employee in lista)
 {
-    Console.Write(lista[i].name+" ");
-    Console.Write(lista[i].surname);
-    Console.Write(" Wiek: " + lista[i].age);
+    Console.Write(lista[i].Name+" ");
+    Console.Write(lista[i].Surname);
+    Console.Write(" Wiek: " + lista[i].Age);
     Console.WriteLine(" Score: " + lista[i].Result);
     TheBest.Add(lista[i].Result);
     if (lista[i].Result > scoreMax)
@@ -47,7 +47,7 @@ foreach (var employee in lista)
     }
     ++i;
 }
-Console.Write("Najlepszy to: " + lista[iMax].name + " "+lista[iMax].surname+" wiek:" + lista[iMax].age);
+Console.Write("Najlepszy to: " + lista[iMax].Name + " "+lista[iMax].Surname+" wiek:" + lista[iMax].Age);
 Console.WriteLine(", a wynik to: " + scoreMax);
 
 
