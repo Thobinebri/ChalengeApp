@@ -18,7 +18,10 @@ bool isActive = false;
 
 
 //Console.WriteLine("Z opóźnieniem ale jest;-) Hello, World-nowe 28.05.2023 16:13!");
-if(surname == "Matura")
-    Console.WriteLine("Jest prawda");
+if (surname == "Matrura")
+{
+    Console.WriteLine("Pierwsze");
+}
 else
-    Console.WriteLine("False");
+    Console.WriteLine("Drugie");
+   
