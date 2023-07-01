@@ -2,7 +2,7 @@
 using System.Linq;
 
 //Dane: Deklaracje liczby do analizy.
-int number = 1211190;
+int number = 12111901;
 string iString = "";
 string numberInString = number.ToString();
 
@@ -73,3 +73,8 @@ for (int i = 0; i < 10; i++)
 //for (int i = 0; i < 3; i++)
 //Console.WriteLine(cyfry[i] + " for");
 
+class User
+{
+    string name;
+    string surname;
+}
