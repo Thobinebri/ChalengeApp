@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿//04.06.2025
+using System.Diagnostics;
 using System.Linq;
 
 //Dane: Deklaracje liczby do analizy.

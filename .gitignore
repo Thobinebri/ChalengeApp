@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/ConsoleApp5/ConsoleApp5.csproj
+/ConsoleApp5/ConsoleApp5.sln
+/ConsoleApp5/Program.cs
+/ConsoleApp5/Program.cs
